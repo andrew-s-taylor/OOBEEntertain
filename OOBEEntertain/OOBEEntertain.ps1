@@ -126,7 +126,7 @@ Process {
         }
         $si = New-Object System.Diagnostics.ProcessStartInfo
         $si.FileName = "$($env:WINDIR)\system32\cmd.exe"
-        $si.Arguments = " /c msedge.exe --kiosk https://pacman.js.org/ --edge-kiosk-type=fullscreen --no-first-run"
+        $si.Arguments = " /c msedge.exe --kiosk https://dos.zone/doom-dec-1993/ --edge-kiosk-type=fullscreen --no-first-run"
         $si.WorkingDirectory = "C:\Program Files (x86)\Microsoft\Edge\Application"
             
         $sa = New-Object SECURITY_ATTRIBUTES
